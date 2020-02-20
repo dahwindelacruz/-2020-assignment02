@@ -4,7 +4,8 @@ do {
     window.console.log(coinFlip);
     if (coinFlip === 0) {
         window.console.log("Heads");
+    } else {
+        window.console.log("Tails");
     }
-} while (coinFlip === 1) {
-    window.console.log("Tails");
+} while (coinFlip === 0) {
 }
